@@ -19,7 +19,7 @@ else:
     load_dotenv()
 
 
-API_TOKEN = os.getenv("HUGGING_FACE_API_TOKEN")
+API_TOKEN = os.getenv("HF_TOKEN")
 API_URL_BASE = "https://api-inference.huggingface.co/models/"
 HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 
