@@ -20,10 +20,7 @@ An interactive web application that translates text into various languages using
 
 **Live Demo:** [Link to your Deployed App on Hugging Face Spaces]
 
-**Project Repository:** `https://github.com/dylangamachefl/hf-text-translator` (Or your actual repo name)
-
-![Screenshot of Text Translator App](translator-screenshot.png)
-*(Replace `translator-screenshot.png` with the actual path/name if different, or embed the image directly if preferred by dragging it into the GitHub text editor for the README)*
+**Project Repository:** `https://github.com/dylangamachefl/hf-text-translator`
 
 ## 📖 Overview
 
