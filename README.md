@@ -3,7 +3,7 @@ title: HF Text Translator
 emoji: 🤗 # You can choose an emoji
 colorFrom: blue # Or any color
 colorTo: green # Or any color
-sdk: Streamlit
+sdk: streamlit
 app_file: app.py
 # For Docker, you don't usually specify sdk_version directly here
 # unless the template specifically requires it.
