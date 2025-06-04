@@ -20,7 +20,7 @@ jobs:
         run: |
           # Replace HF_USERNAME with your Hugging Face username
           # Replace SPACE_NAME with the name of your Hugging Face Space
-          # Example: git remote add space https://HF_USERNAME:${HF_TOKEN}@huggingface.co/spaces/HF_USERNAME/SPACE_NAME
+          # Example: git remote add space https://dylangamachefl:${HF_TOKEN}@huggingface.co/spaces/HF_USERNAME/SPACE_NAME
           git remote add space https://YOUR_HUGGING_FACE_USERNAME:${HF_TOKEN}@huggingface.co/spaces/dylangamachefl/hf-text-translator
           
           # Force push to the main branch of your Space.
