@@ -1,0 +1,23 @@
+name: Sync to Hugging Face hub
+
+on:
+  push:
+    branches: [main] # Or master, or any branch you want to sync
+
+  # To run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3 # Or v4, check latest
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Push to Hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git push https://dylangamachefl:${HF_TOKEN}@huggingface.co/spaces/dylangamachefl/hf-text-translator main --force
+        
