@@ -16,11 +16,11 @@ pinned: false
 
 # 🌍 Hugging Face Text Translation Tool
 
-An interactive web application that translates text into various languages using Hugging Face's state-of-the-art translation models via the Inference API. This project is part of a 4-week AI project portfolio building challenge.
+An interactive web application that translates text into various languages using Hugging Face's state-of-the-art translation models via the Inference API.
 
-**Live Demo:** [Link to your Deployed App on Hugging Face Spaces]
+**Live Demo:** [HF Text Translator App](https://dylangamachefl-hf-text-translator.hf.space)
 
-**Project Repository:** `https://github.com/dylangamachefl/hf-text-translator`
+**Repo:** [GitHub - hf-text-translator](https://github.com/dylangamachefl/hf-text-translator)
 
 ## 📖 Overview
 
